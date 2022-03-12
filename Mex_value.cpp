@@ -43,6 +43,7 @@ int query(int q, int x) {
 //this program efficiently finds mex value for each query in log(n). 
 // The mex value is the smallest non-negative number not present in the array.
 // ex mex(0,1,3,4) = 2, mex(1,2,3,4) = 0
+// https://codeforces.com/blog/entry/81287?#comment-677837
 int main() {
     int n;
     cout << "enter max value to be entered\n";
